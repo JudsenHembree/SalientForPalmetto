@@ -1,0 +1,504 @@
+,ncalls,tottime,percall,cumtime,percall2,filename:lineno(function)
+0,1,0.0,0.0,0.0,0.0, {built-in method builtins.iter}
+1,1,0.0,0.0,0.0,0.0, argparse.py:2468(<listcomp>)
+2,1,0.0,0.0,0.0,0.0, {method 'write' of '_io.TextIOWrapper' objects}
+3,1,0.0,0.0,0.0,0.0, __init__.py:96(<lambda>)
+4,1,0.0,0.0,0.0,0.0, argparse.py:134(_get_args)
+5,1,0.0,0.0,0.0,0.0, context.py:213(_check_available)
+6,1,0.0,0.0,0.0,0.0, {method 'groups' of 're.Match' objects}
+7,2,0.0,0.0,0.0,0.0, selectors.py:200(__enter__)
+8,1,0.0,0.0,0.0,0.0, argparse.py:1295(__init__)
+9,1,0.0,0.0,0.0,0.0, {built-in method _imp.exec_dynamic}
+10,2,0.0,0.0,0.0,0.0, {built-in method _stat.S_ISDIR}
+11,1,0.0,0.0,0.0,0.0, {method 'values' of 'dict' objects}
+12,4,0.0,0.0,0.0,0.0, <frozen importlib._bootstrap_external>:841(create_module)
+13,3,0.0,0.0,0.0,0.0, spawn.py:45(get_executable)
+14,4,0.0,0.0,0.0,0.0, <frozen importlib._bootstrap_external>:1031(get_filename)
+15,2,0.0,0.0,0.0,0.0, process.py:213(authkey)
+16,2,0.0,0.0,0.0,0.0, process.py:205(daemon)
+17,1,0.0,0.0,0.0,0.0, <frozen importlib._bootstrap_external>:175(_path_isabs)
+18,1,0.0,0.0,0.0,0.0, popen_spawn_posix.py:26(Popen)
+19,1,0.0,0.0,0.0,0.0, argparse.py:958(__call__)
+20,4,0.0,0.0,0.0,0.0, sre_parse.py:163(__delitem__)
+21,4,0.0,0.0,0.0,0.0, connection.py:168(writable)
+22,5,0.0,0.0,0.0,0.0, <frozen importlib._bootstrap>:406(has_location)
+23,1,0.0,0.0,0.0,0.0, {built-in method builtins.locals}
+24,1,0.0,0.0,0.0,0.0, {built-in method _imp.is_builtin}
+25,3,0.0,0.0,0.0,0.0, {method 'index' of 'str' objects}
+26,1,0.0,0.0,0.0,0.0, argparse.py:2177(<listcomp>)
+27,10,0.0,0.0,0.0,0.0, {built-in method builtins.ord}
+28,8,0.0,0.0,0.0,0.0, <frozen importlib._bootstrap_external>:68(_relax_case)
+29,1,0.0,0.0,0.0,0.0, codecs.py:186(__init__)
+30,1,0.0,0.0,0.0,0.0, {method 'disable' of '_lsprof.Profiler' objects}
+31,6,0.0,0.0,0.0,0.0, util.py:44(sub_debug)
+32,4,0.0,0.0,0.0,0.0, {built-in method time.perf_counter_ns}
+33,2,0.0,0.0,0.0,0.0, {method '_weak_ref' of 'torch._C.HalfStorageBase' objects}
+34,4,0.0,0.0,0.0,0.0, {built-in method builtins.id}
+35,4,0.0,0.0,0.0,0.0, connection.py:139(_check_closed)
+36,7,0.0,0.0,0.0,0.0, argparse.py:613(<listcomp>)
+37,5,0.0,0.0,0.0,0.0, {method 'get' of 'mappingproxy' objects}
+38,2,0.0,0.0,0.0,0.0, utils.py:280(__init__)
+39,7,0.0,0.0,0.0,0.0, storage.py:13(__init__)
+40,2,0.0,0.0,0.0,0.0, {method 'size' of 'torch._C.HalfStorageBase' objects}
+41,4,0.0,0.0,0.0,0.0, {method 'decode' of 'bytes' objects}
+42,4,0.0,0.0,0.0,0.0, util.py:48(debug)
+43,7,0.0,0.0,0.0,0.0, serialization.py:205(__exit__)
+44,4,0.0,0.0,0.0,0.0, process.py:37(current_process)
+45,11,0.0,0.0,0.0,0.0, {method 'extend' of 'list' objects}
+46,2,0.0,0.0,0.0,0.0, argparse.py:579(<listcomp>)
+47,1,0.0,0.0,0.0,0.0, argparse.py:1817(<listcomp>)
+48,4,0.0,0.0,0.0,0.0, connection.py:163(readable)
+49,7,0.0,0.0,0.0,0.0, {method 'clear' of 'list' objects}
+50,4,0.0,0.0,0.0,0.0, {method 'find' of 'bytearray' objects}
+51,2,0.0,0.0,0.0,0.0, {method 'write' of '_io.BufferedWriter' objects}
+52,10,0.0,0.0,0.0,0.0, sre_compile.py:477(_get_iscased)
+53,5,0.0,0.0,0.0,0.0, {built-in method _imp.is_frozen}
+54,2,0.0,0.0,0.0,0.0, {method 'index' of 'list' objects}
+55,12,0.0,0.0,0.0,0.0, {method '_weak_ref' of 'torch._C.LongStorageBase' objects}
+56,12,0.0,0.0,0.0,0.0, {method 'group' of 're.Match' objects}
+57,10,0.0,0.0,0.0,0.0, {built-in method _thread.get_ident}
+58,9,0.0,0.0,0.0,0.0, sre_parse.py:169(__setitem__)
+59,1,0.0,0.0,0.0,0.0, resource_tracker.py:48(__init__)
+60,2,0.0,0.0,0.0,0.0, {method 'clear' of 'dict' objects}
+61,15,0.0,0.0,0.0,0.0, {method 'isalnum' of 'str' objects}
+62,2,0.0,0.0,0.0,0.0, {built-in method torch._C._cuda_getDeviceCount}
+63,12,0.0,0.0,0.0,0.0, {method 'items' of 'dict' objects}
+64,1,0.0,0.0,0.0,0.0, <frozen importlib._bootstrap_external>:1155(__init__)
+65,7,0.0,0.0,0.0,0.0, {built-in method torch._C._has_torch_function_unary}
+66,4,0.0,0.0,0.0,0.0, {built-in method _weakref._remove_dead_weakref}
+67,4,0.0,0.0,0.0,0.0, {method 'discard' of 'set' objects}
+68,14,0.0,0.0,0.0,0.0, {method 'has_names' of 'torch._C._TensorBase' objects}
+69,9,0.0,0.0,0.0,0.0, {method 'rfind' of 'str' objects}
+70,3,0.0,0.0,0.0,0.0, {method 'register' of 'select.poll' objects}
+71,12,0.0,0.0,0.0,0.0, {built-in method from_bytes}
+72,13,0.0,0.0,0.0,0.0, argparse.py:2501(_check_value)
+73,7,0.0,0.0,0.0,0.0, sre_compile.py:81(_combine_flags)
+74,1,0.0,0.0,0.0,0.0, resource_tracker.py:46(ResourceTracker)
+75,14,0.0,0.0,0.0,0.0, {method 'remove' of 'list' objects}
+76,12,0.0,0.0,0.0,0.0, {method 'size' of 'torch._C.LongStorageBase' objects}
+77,9,0.0,0.0,0.0,0.0, {method 'keys' of 'dict' objects}
+78,1,0.0,0.0,0.0,0.0, argparse.py:1816(_get_positional_actions)
+79,5,0.0,0.0,0.0,0.0, <frozen importlib._bootstrap>:152(__init__)
+80,1,0.0,0.0,0.0,0.0, main.py:69(get_model_type)
+81,14,0.0,0.0,0.0,0.0, {method 'lower' of 'str' objects}
+82,23,0.0,0.0,0.0,0.0, {method 'reverse' of 'list' objects}
+83,4,0.0,0.0,0.0,0.0, {built-in method _imp._fix_co_filename}
+84,14,0.0,0.0,0.0,0.0, serialization.py:202(__enter__)
+85,2,0.0,0.0,0.0,0.0, sre_compile.py:456(_generate_overlap_table)
+86,2,0.0,0.0,0.0,0.0, {built-in method posix.waitstatus_to_exitcode}
+87,2,0.0,0.0,0.0,0.0, {method 'getbuffer' of '_io.BytesIO' objects}
+88,1,0.0,0.0,0.0,0.0, {built-in method posix.uname}
+89,1,0.0,0.0,0.0,0.0, popen_spawn_posix.py:16(_DupFd)
+90,7,0.0,0.0,0.0,0.0, {built-in method _free_weak_ref}
+91,1,0.0,0.0,0.0,0.0, popen_fork.py:12(Popen)
+92,4,0.0,0.0,0.0,0.0, context.py:197(get_start_method)
+93,2,0.0,0.0,0.0,0.0, connection.py:938(<listcomp>)
+94,5,0.0,0.0,0.0,0.0, <frozen importlib._bootstrap>:736(find_spec)
+95,1,0.0,0.0,0.0,0.0, <frozen importlib._bootstrap_external>:1179(exec_module)
+96,4,0.0,0.0,0.0,0.0, synchronize.py:90(_make_methods)
+97,2,0.0,0.0,0.0,0.0, utils.py:284(__enter__)
+98,32,0.0,0.0,0.0,0.0, {method 'bit_length' of 'int' objects}
+99,18,0.0,0.0,0.0,0.0, {method 'find' of 'str' objects}
+100,14,0.0,0.0,0.0,0.0, {method 'storage_offset' of 'torch._C._TensorBase' objects}
+101,2,0.0,0.0,0.0,0.0, _weakrefset.py:39(_remove)
+102,2,0.0,0.0,0.0,0.0, process.py:247(sentinel)
+103,1,0.0,0.0,0.0,0.0, {built-in method _locale.nl_langinfo}
+104,6,0.0,0.0,0.0,0.0, spawn.py:87(<genexpr>)
+105,4,0.0,0.0,0.0,0.0, <frozen importlib._bootstrap_external>:1006(__init__)
+106,7,0.0,0.0,0.0,0.0, {method 'seek' of '_io.BufferedReader' objects}
+107,2,0.0,0.0,0.0,0.0, argparse.py:1517(_get_positional_kwargs)
+108,4,0.0,0.0,0.0,0.0, __init__.py:464(__getnewargs__)
+109,6,0.0,0.0,0.0,0.0, {built-in method _sre.compile}
+110,2,0.0,0.0,0.0,0.0, {built-in method select.poll}
+111,3,0.0,0.0,0.0,0.0, sre_compile.py:516(_get_charset_prefix)
+112,7,0.0,0.0,0.0,0.0, serialization.py:815(_get_restore_location)
+113,2,0.0,0.0,0.0,0.0, utils.py:289(stop)
+114,3,0.0,0.0,0.0,0.0, subprocess.py:272(_optim_args_from_interpreter_flags)
+115,6,0.0,0.0,0.0,0.0, sre_parse.py:76(__init__)
+116,4,0.0,0.0,0.0,0.0, connection.py:173(fileno)
+117,4,0.0,0.0,0.0,0.0, <frozen importlib._bootstrap>:35(_new_module)
+118,1,0.0,0.0,0.0,0.0, __init__.py:74(is_available)
+119,1,0.0,0.0,0.0,0.0, argparse.py:1086(__init__)
+120,30,0.0,0.0,0.0,0.0, {built-in method _imp.release_lock}
+121,43,0.0,0.0,0.0,0.0, {method 'setdefault' of 'dict' objects}
+122,4,0.0,0.0,0.0,0.0, os.py:758(decode)
+123,1,0.0,0.0,0.0,0.0, posixpath.py:140(basename)
+124,7,0.0,0.0,0.0,0.0, serialization.py:314(_check_dill_version)
+125,7,0.0,0.0,0.0,0.0, serialization.py:126(_cpu_deserialize)
+126,13,0.0,0.0,0.0,0.0, posixpath.py:41(_get_sep)
+127,32,0.0,0.0,0.0,0.0, {method 'add' of 'set' objects}
+128,8,0.0,0.0,0.0,0.0, process.py:99(_check_closed)
+129,18,0.0,0.0,0.0,0.0, popen_spawn_posix.py:17(__init__)
+130,7,0.0,0.0,0.0,0.0, context.py:187(get_context)
+131,3,0.0,0.0,0.0,0.0, selectors.py:21(_fileobj_to_fd)
+132,6,0.0,0.0,0.0,0.0, context.py:357(assert_spawning)
+133,3,0.0,0.0,0.0,0.0, argparse.py:1571(_get_handler)
+134,2,0.0,0.0,0.0,0.0, queues.py:355(__getstate__)
+135,6,0.0,0.0,0.0,0.0, sre_parse.py:928(fix_flags)
+136,5,0.0,0.0,0.0,0.0, <frozen importlib._bootstrap>:811(find_spec)
+137,4,0.0,0.0,0.0,0.0, <frozen importlib._bootstrap_external>:523(_check_name_wrapper)
+138,4,0.0,0.0,0.0,0.0, sre_compile.py:265(_compile_charset)
+139,17,0.0,0.0,0.0,0.0, pathlib.py:1089(_init)
+140,2,0.0,0.0,0.0,0.0, {built-in method posix.putenv}
+141,13,0.0,0.0,0.0,0.0, pathlib.py:102(join_parsed_parts)
+142,1,0.0,0.0,0.0,0.0, __init__.py:451(device_count)
+143,12,0.0,0.0,0.0,0.0, {method 'split' of 'str' objects}
+144,38,0.0,0.0,0.0,0.0, enum.py:792(value)
+145,2,0.0,0.0,0.0,0.0, process.py:224(exitcode)
+146,37,0.0,0.0,0.0,0.0, {method 'isidentifier' of 'str' objects}
+147,20,0.0,0.0,0.0,0.0, sre_parse.py:82(groups)
+148,1,0.0,0.0,0.0,0.0, argparse.py:131(_get_kwargs)
+149,9,0.0,0.0,0.0,0.0, <frozen importlib._bootstrap_external>:1346(_path_importer_cache)
+150,25,0.0,0.0,0.0,0.0, argparse.py:2183(_parse_optional)
+151,12,0.0,0.0,0.0,0.0, sre_compile.py:619(isstring)
+152,2,0.0,0.0,0.0,0.0, selectors.py:276(_key_from_fd)
+153,21,0.0,0.0,0.0,0.0, __init__.py:62(get_sharing_strategy)
+154,4,0.0,0.0,0.0,0.0, context.py:354(set_spawning_popen)
+155,4,0.0,0.0,0.0,0.0, process.py:94(<genexpr>)
+156,5,0.0,0.0,0.0,0.0, <frozen importlib._bootstrap>:351(__init__)
+157,7,0.0,0.0,0.0,0.0, reductions.py:35(__del__)
+158,51,0.0,0.0,0.0,0.0, {method 'getrandbits' of '_random.Random' objects}
+159,41,0.0,0.0,0.0,0.0, {method 'startswith' of 'str' objects}
+160,2,0.0,0.0,0.0,0.0, {method 'copy' of 'list' objects}
+161,3,0.0,0.0,0.0,0.0, <string>:1(<lambda>)
+162,7,0.0,0.0,0.0,0.0, serialization.py:869(UnpicklerWrapper)
+163,4,0.0,0.0,0.0,0.0, sre_parse.py:85(opengroup)
+164,4,0.0,0.0,0.0,0.0, weakref.py:353(__init__)
+165,2,0.0,0.0,0.0,0.0, context.py:249(get_start_method)
+166,21,0.0,0.0,0.0,0.0, sre_parse.py:112(__init__)
+167,3,0.0,0.0,0.0,0.0, selectors.py:216(_fileobj_lookup)
+168,14,0.0,0.0,0.0,0.0, serialization.py:803(_maybe_decode_ascii)
+169,14,0.0,0.0,0.0,0.0, {method 'tell' of '_io.BufferedReader' objects}
+170,11,0.0,0.0,0.0,0.0, {built-in method _thread.allocate_lock}
+171,1,0.0,0.0,0.0,0.0, context.py:233(get_context)
+172,14,0.0,0.0,0.0,0.0, serialization.py:199(__init__)
+173,48,0.0,0.0,0.0,0.0, {built-in method posix.fspath}
+174,13,0.0,0.0,0.0,0.0, argparse.py:935(__call__)
+175,1,0.0,0.0,0.0,0.0, _bootlocale.py:33(getpreferredencoding)
+176,14,0.0,0.0,0.0,0.0, hooks.py:54(warn_if_has_hooks)
+177,2,0.0,0.0,0.0,0.0, process.py:189(name)
+178,20,0.0,0.0,0.0,0.0, <frozen importlib._bootstrap>:874(__enter__)
+179,5,0.0,0.0,0.0,0.0, <frozen importlib._bootstrap>:185(cb)
+180,13,0.0,0.0,0.0,0.0, argparse.py:2044(<listcomp>)
+181,20,0.0,0.0,0.0,0.0, <frozen importlib._bootstrap>:878(__exit__)
+182,16,0.0,0.0,0.0,0.0, <frozen importlib._bootstrap_external>:129(<genexpr>)
+183,4,0.0,0.0,0.0,0.0, {built-in method builtins.sorted}
+184,88,0.0,0.0,0.0,0.0, {method 'rstrip' of 'str' objects}
+185,2,0.0,0.0,0.0,0.0, {built-in method posix.getcwd}
+186,42,0.0,0.0,0.0,0.0, {method 'endswith' of 'str' objects}
+187,8,0.0,0.0,0.0,0.0, sre_parse.py:356(_escape)
+188,40,0.0,0.0,0.0,0.0, {method 'lstrip' of 'str' objects}
+189,28,0.0,0.0,0.0,0.0, sre_parse.py:250(match)
+190,2,0.0,0.0,0.0,0.0, selectors.py:64(__init__)
+191,1,0.0,0.0,0.0,0.0, argparse.py:2173(<listcomp>)
+192,30,0.0,0.0,0.0,0.0, {built-in method _imp.acquire_lock}
+193,2,0.0,0.0,0.0,0.0, {built-in method _signal.pthread_sigmask}
+194,92,0.0,0.0,0.0,0.0, {built-in method builtins.callable}
+195,2,0.0,0.0,0.0,0.0, pathlib.py:1434(is_dir)
+196,7,0.0,0.0,0.0,0.0, serialization.py:193(_is_path)
+197,4,0.0,0.0,0.0,0.0, synchronize.py:100(__getstate__)
+198,18,0.0,0.0,0.0,0.0, popen_spawn_posix.py:34(duplicate_for_child)
+199,26,0.0,0.0,0.0,0.0, {built-in method posix.getpid}
+200,6,0.0,0.0,0.0,0.0, argparse.py:941(__init__)
+201,39,0.0,0.0,0.0,0.0, {method 'fileno' of '_io.TextIOWrapper' objects}
+202,34,0.0,0.0,0.0,0.0, {method '__exit__' of '_thread.lock' objects}
+203,23,0.0,0.0,0.0,0.0, sre_parse.py:287(tell)
+204,2,0.0,0.0,0.0,0.0, resource_tracker.py:66(getfd)
+205,2,0.0,0.0,0.0,0.0, spawn.py:132(_check_not_importing_main)
+206,3,0.0,0.0,0.0,0.0, os.py:804(fsencode)
+207,66,0.0,0.0,0.0,0.0, {method 'replace' of 'str' objects}
+208,81,0.0,0.0,0.0,0.0, {method 'pop' of 'dict' objects}
+209,4,0.0,0.0,0.0,0.0, <frozen importlib._bootstrap_external>:593(_validate_timestamp_pyc)
+210,7,0.0,0.0,0.0,0.0, _utils.py:158(_validate_loaded_sparse_tensors)
+211,29,0.0,0.0,0.0,0.0, {built-in method sys.intern}
+212,2,0.0,0.0,0.0,0.0, util.py:461(close_fds)
+213,28,0.0,0.0,0.0,0.0, sre_parse.py:173(append)
+214,2,0.0,0.0,0.0,0.0, _weakrefset.py:86(add)
+215,4,0.0,0.0,0.0,0.0, weakref.py:106(remove)
+216,6,0.0,0.0,0.0,0.0, sre_parse.py:225(__init__)
+217,5,0.0,0.0,0.0,0.0, <frozen importlib._bootstrap>:112(release)
+218,28,0.0,0.0,0.0,0.0, {built-in method __new__ of type object at 0x5573f2d4d2c0}
+219,38,0.0,0.0,0.0,0.0, argparse.py:203(__init__)
+220,1,0.0,0.0,0.0,0.0, {method 'long' of 'torch._C._TensorBase' objects}
+221,12,0.0,0.0,0.0,0.0, <frozen importlib._bootstrap_external>:79(_unpack_uint32)
+222,4,0.0,0.0,0.0,0.0, sre_compile.py:292(_optimize_charset)
+223,7/5,0.0,0.0,0.0,0.0, sre_compile.py:485(_get_literal_prefix)
+224,1,0.0,0.0,0.0,0.0, spawn.py:73(<dictcomp>)
+225,47,0.0,0.0,0.0,0.0, <frozen importlib._bootstrap>:231(_verbose_message)
+226,4,0.0,0.0,0.0,0.0, weakref.py:348(__new__)
+227,4,0.0,0.0,0.0,0.0, connection.py:365(_close)
+228,45,0.0,0.0,0.0,0.0, sre_parse.py:161(__len__)
+229,19,0.0,0.0,0.0,0.0, pathlib.py:303(splitroot)
+230,2,0.0,0.0,0.0,0.0, os.py:682(__setitem__)
+231,9,0.0,0.0,0.0,0.0, sre_compile.py:447(_simple)
+232,5,0.0,0.0,0.0,0.0, __init__.py:89(find_spec)
+233,11,0.0,0.0,0.0,0.0, {method 'format' of 'str' objects}
+234,28,0.0,0.0,0.0,0.0, context.py:351(get_spawning_popen)
+235,38,0.0,0.0,0.0,0.0, argparse.py:1580(_check_conflict)
+236,4,0.0,0.0,0.0,0.0, sre_parse.py:97(closegroup)
+237,6,0.0,0.0,0.0,0.0, argparse.py:964(__init__)
+238,2,0.0,0.0,0.0,0.0, utils.py:234(__str__)
+239,3,0.0,0.0,0.0,0.0, __init__.py:43(normalize_encoding)
+240,4,0.0,0.0,0.0,0.0, <frozen importlib._bootstrap_external>:560(_classify_pyc)
+241,2,0.0,0.0,0.0,0.0, pathlib.py:677(__reduce__)
+242,5,0.0,0.0,0.0,0.0, <frozen importlib._bootstrap>:160(__exit__)
+243,2,0.0,0.0,0.0,0.0, process.py:61(_cleanup)
+244,1,0.0,0.0,0.0,0.0, ddp.py:12(set_master)
+245,14,0.0,0.0,0.0,0.0, enum.py:670(__new__)
+246,5,0.0,0.0,0.0,0.0, <frozen importlib._bootstrap>:87(acquire)
+247,2,0.0,0.0,0.0,0.0, selectors.py:269(close)
+248,10,0.0,0.0,0.0,0.0, pathlib.py:725(_format_parsed_parts)
+249,5,0.0,0.0,0.0,0.0, <frozen importlib._bootstrap>:58(__init__)
+250,1,0.0,0.0,0.0,0.0, {method 'to' of 'torch._C._TensorBase' objects}
+251,4,0.0,0.0,0.0,0.0, <frozen importlib._bootstrap_external>:1077(path_stats)
+252,14,0.0,0.0,0.0,0.0, _namedtensor_internals.py:10(check_serializing_named_tensor)
+253,1,0.0,0.0,0.0,0.0, {function Random.seed at 0x14e33ec09820}
+254,37,0.0,0.0,0.0,0.0, argparse.py:1363(register)
+255,4,0.0,0.0,0.0,0.0, {built-in method _multiprocessing.sem_unlink}
+256,7,0.0,0.0,0.0,0.0, serialization.py:173(default_restore_location)
+257,50,0.0,0.0,0.0,0.0, {method 'match' of 're.Pattern' objects}
+258,45,0.0,0.0,0.0,0.0, sre_parse.py:234(__next)
+259,104,0.0,0.0,0.0,0.0, {method 'encode' of 'str' objects}
+260,38,0.0,0.0,0.0,0.0, argparse.py:584(format)
+261,2,0.0,0.0,0.0,0.0, selectors.py:203(__exit__)
+262,4,0.0,0.0,0.0,0.0, connection.py:135(__del__)
+263,4,0.0,0.0,0.0,0.0, connection.py:122(__init__)
+264,14,0.0,0.0,0.0,0.0, argparse.py:2286(_get_nargs_pattern)
+265,16,0.0,0.0,0.0,0.0, argparse.py:2475(_get_value)
+266,101,0.0,0.0,0.0,0.0, {built-in method builtins.min}
+267,77,0.0,0.0,0.0,0.0, {method 'rpartition' of 'str' objects}
+268,4,0.0,0.0,0.0,0.0, process.py:344(__reduce__)
+269,38,0.0,0.0,0.0,0.0, argparse.py:575(_metavar_formatter)
+270,38,0.0,0.0,0.0,0.0, types.py:171(__get__)
+271,9,0.0,0.0,0.0,0.0, resource_tracker.py:134(_check_alive)
+272,13,0.0,0.0,0.0,0.0, pathlib.py:715(_from_parsed_parts)
+273,34,0.0,0.0,0.0,0.0, sre_parse.py:255(get)
+274,5,0.0,0.0,0.0,0.0, copyreg.py:103(_slotnames)
+275,167,0.0,0.0,0.0,0.0, {method 'get' of 'dict' objects}
+276,58,0.0,0.0,0.0,0.0, {built-in method builtins.setattr}
+277,49,0.0,0.0,0.0,0.0, {built-in method builtins.max}
+278,1,0.0,0.0,0.0,0.0, random.py:126(seed)
+279,17,0.0,0.0,0.0,0.0, {built-in method posix.write}
+280,4,0.0,0.0,0.0,0.0, connection.py:972(reduce_connection)
+281,14,0.0,0.0,0.0,0.0, {method 'stride' of 'torch._C._TensorBase' objects}
+282,6,0.0,0.0,0.0,0.0, enum.py:977(__and__)
+283,8,0.0,0.0,0.0,0.0, <frozen importlib._bootstrap_external>:127(_path_split)
+284,5,0.0,0.0,0.0,0.0, <frozen importlib._bootstrap_external>:696(spec_from_file_location)
+285,7,0.0,0.0,0.0,0.0, serialization.py:889(_is_torchscript_zip)
+286,1,0.0,0.0,0.0,0.0, random.py:117(__init__)
+287,38,0.0,0.0,0.0,0.0, argparse.py:820(__init__)
+288,14,0.0,0.0,0.0,0.0, {built-in method posix.fstat}
+289,14,0.0,0.0,0.0,0.0, reductions.py:26(__init__)
+290,3,0.0,0.0,0.0,0.0, locale.py:352(_replace_encoding)
+291,4,0.0,0.0,0.0,0.0, {method 'flush' of '_io.TextIOWrapper' objects}
+292,40,0.0,0.0,0.0,0.0, <frozen importlib._bootstrap_external>:123(<listcomp>)
+293,1,0.0,0.0,0.0,0.0, spawn.py:11(<module>)
+294,12,0.0,0.0,0.0,0.0, _collections_abc.py:760(get)
+295,1,0.0,0.0,0.0,0.0, spawn.py:70(__init__)
+296,13,0.0,0.0,0.0,0.0, pathlib.py:742(__str__)
+297,2,0.0,0.0,0.0,0.0, argparse.py:1620(__init__)
+298,92,0.0,0.0,0.0,0.0, argparse.py:1367(_registry_get)
+299,2,0.0,0.0,0.0,0.0, selectors.py:210(__init__)
+300,1,0.0,0.0,0.0,0.0, popen_fork.py:1(<module>)
+301,38,0.0,0.0,0.0,0.0, {built-in method posix.get_terminal_size}
+302,15,0.0,0.0,0.0,0.0, {function _load.<locals>.UnpicklerWrapper.find_class at 0x14e225ae24c0}
+303,38,0.0,0.0,0.0,0.0, argparse.py:1567(_pop_action_class)
+304,139,0.0,0.0,0.0,0.0, {built-in method builtins.hasattr}
+305,14,0.0,0.0,0.0,0.0, reductions.py:273(fd_id)
+306,10,0.0,0.0,0.0,0.0, {built-in method posix.pipe}
+307,32,0.0,0.0,0.0,0.0, random.py:237(_randbelow_with_getrandbits)
+308,96,0.0,0.0,0.0,0.0, {built-in method builtins.getattr}
+309,84,0.0,0.0,0.0,0.0, {method 'join' of 'str' objects}
+310,3,0.0,0.0,0.0,0.0, selectors.py:235(register)
+311,2,0.0,0.0,0.0,0.0, argparse.py:1443(add_argument_group)
+312,2,0.0,0.0,0.0,0.0, utils.py:292(__exit__)
+313,14,0.0,0.0,0.0,0.0, enum.py:358(__call__)
+314,6,0.0,0.0,0.0,0.0, {method 'copy' of 'dict' objects}
+315,12,0.0,0.0,0.0,0.0, posixpath.py:71(join)
+316,13,0.0,0.0,0.0,0.0, pathlib.py:752(__fspath__)
+317,30,0.0,0.0,0.0,0.0, argparse.py:906(__init__)
+318,14,0.0,0.0,0.0,0.0, reductions.py:59(__setitem__)
+319,2,0.0,0.0,0.0,0.0, signal.py:24(_int_to_enum)
+320,19,0.0,0.0,0.0,0.0, {built-in method posix.close}
+321,113,0.0,0.0,0.0,0.0, sre_parse.py:165(__getitem__)
+322,25/10,0.0,0.0,0.0,0.0, sre_parse.py:175(getwidth)
+323,5,0.0,0.0,0.0,0.0, <frozen importlib._bootstrap_external>:1509(_get_spec)
+324,14,0.0,0.0,0.0,0.0, argparse.py:2419(_get_values)
+325,2,0.0,0.0,0.0,0.0, util.py:433(_flush_std_streams)
+326,4,0.0,0.0,0.0,0.0, resource_tracker.py:149(unregister)
+327,3,0.0,0.0,0.0,0.0, subprocess.py:282(_args_from_interpreter_flags)
+328,1,0.0,0.0,0.0,0.0, argparse.py:116(__repr__)
+329,6,0.0,0.0,0.0,0.0, locale.py:386(normalize)
+330,14,0.0,0.0,0.0,0.0, {method 'size' of 'torch._C._TensorBase' objects}
+331,18,0.0,0.0,0.0,0.0, reduction.py:191(DupFd)
+332,2,0.0,0.0,0.0,0.0, connection.py:521(Pipe)
+333,4,0.0,0.0,0.0,0.0, signal.py:70(<genexpr>)
+334,1,0.0,0.0,0.0,0.0, {built-in method builtins.repr}
+335,4,0.0,0.0,0.0,0.0, tempfile.py:138(rng)
+336,4,0.0,0.0,0.0,0.0, weakref.py:165(__setitem__)
+337,422/401,0.0,0.0,0.0,0.0, {built-in method builtins.len}
+338,591,0.0,0.0,0.0,0.0, {method 'append' of 'list' objects}
+339,52,0.0,0.0,0.0,0.0, <frozen importlib._bootstrap>:398(parent)
+340,4,0.0,0.0,0.0,0.0, pathlib.py:702(_from_parts)
+341,3,0.0,0.0,0.0,0.0, selectors.py:352(register)
+342,8,0.0,0.0,0.0,0.0, {built-in method builtins.print}
+343,5,0.0,0.0,0.0,0.0, <frozen importlib._bootstrap_external>:491(_get_cached)
+344,93,0.0,0.0,0.0,0.0, os.py:754(encode)
+345,28,0.0,0.0,0.0,0.0, {method 'storage' of 'torch._C._TensorBase' objects}
+346,5,0.0,0.0,0.0,0.0, <frozen importlib._bootstrap>:166(_get_module_lock)
+347,40,0.0,0.0,0.0,0.0, <frozen importlib._bootstrap_external>:121(_path_join)
+348,2,0.0,0.0,0.0,0.0, selectors.py:348(__init__)
+349,15,0.0,0.0,0.0,0.0, serialization.py:873(find_class)
+350,9,0.0,0.0,0.0,0.0, <frozen importlib._bootstrap>:385(cached)
+351,4,0.0,0.0,0.0,0.0, pathlib.py:1079(__new__)
+352,548,0.0,0.0,0.0,0.0, {built-in method builtins.isinstance}
+353,2,0.0,0.0,0.0,0.0, spawn.py:78(get_command_line)
+354,2,0.0,0.0,0.0,0.0, main.py:91(get_job_dir)
+355,8,0.0,0.0,0.0,0.0, <frozen importlib._bootstrap_external>:361(cache_from_source)
+356,32,0.0,0.0,0.0,0.0, random.py:343(choice)
+357,4,0.0,0.0,0.0,0.0, util.py:171(register_after_fork)
+358,38,0.0,0.0,0.0,0.0, argparse.py:1453(_add_action)
+359,6,0.0,0.0,0.0,0.0, sre_compile.py:560(_compile_info)
+360,2,0.0,0.0,0.0,0.0, signal.py:67(pthread_sigmask)
+361,6,0.0,0.0,0.0,0.0, gettext.py:211(_expand_lang)
+362,38,0.0,0.0,0.0,0.0, argparse.py:591(_format_args)
+363,14,0.0,0.0,0.0,0.0, argparse.py:1917(take_action)
+364,17,0.0,0.0,0.0,0.0, pathlib.py:64(parse_parts)
+365,2,0.0,0.0,0.0,0.0, spawn.py:150(get_preparation_data)
+366,4,0.0,0.0,0.0,0.0, tempfile.py:152(<listcomp>)
+367,5,0.0,0.0,0.0,0.0, <frozen importlib._bootstrap>:156(__enter__)
+368,7,0.0,0.0,0.0,0.0, {method 'update' of 'dict' objects}
+369,7,0.0,0.0,0.0,0.0, {method 'set_' of 'torch._C._TensorBase' objects}
+370,5,0.0,0.0,0.0,0.0, <frozen importlib._bootstrap>:486(_init_module_attrs)
+371,4,0.0,0.0,0.0,0.0, synchronize.py:84(_cleanup)
+372,38,0.0,0.0,0.0,0.0, argparse.py:1642(_add_action)
+373,21/6,0.0,0.0,0.0,0.0, sre_compile.py:87(_compile)
+374,2,0.0,0.0,0.0,0.0, process.py:80(__init__)
+375,6,0.0,0.0,0.0,0.0, util.py:186(__init__)
+376,38,0.0,0.0,0.0,0.0, argparse.py:1804(_add_action)
+377,89,0.0,0.0,0.0,0.0, os.py:674(__getitem__)
+378,17,0.0,0.0,0.0,0.0, pathlib.py:682(_parse_args)
+379,13,0.0,0.0,0.0,0.0, pathlib.py:736(_make_child)
+380,36,0.0,0.0,0.0,0.0, argparse.py:1533(_get_optional_kwargs)
+381,12,0.0,0.0,0.0,0.0, argparse.py:2145(_match_argument)
+382,6,0.0,0.0,0.0,0.0, util.py:205(__call__)
+383,13,0.0,0.0,0.0,0.0, pathlib.py:966(joinpath)
+384,7,0.0,0.0,0.0,0.0, {built-in method tensor}
+385,4,0.0,0.0,0.0,0.0, reduction.py:38(__init__)
+386,11,0.0,0.0,0.0,0.0, {built-in method builtins.__build_class__}
+387,2,0.0,0.0,0.0,0.0, argparse.py:2167(_match_arguments_partial)
+388,4,0.0,0.0,0.0,0.0, tempfile.py:149(__next__)
+389,12,0.0,0.0,0.0,0.0, genericpath.py:16(exists)
+390,2,0.0,0.0,0.0,0.0, argparse.py:2015(consume_positionals)
+391,6,0.0,0.0,0.0,0.0, sre_compile.py:622(_code)
+392,1,0.0,0.0,0.0,0.0, {built-in method _imp.create_dynamic}
+393,16,0.0,0.0,0.0,0.0, {built-in method builtins.next}
+394,1,0.0,0.0,0.0,0.0, <frozen importlib._bootstrap_external>:1171(create_module)
+395,11/7,0.0,0.0,0.0,0.0, sre_parse.py:494(_parse)
+396,14,0.0,0.0,0.0,0.0, reductions.py:137(reduce_tensor)
+397,4,0.0,0.0,0.0,0.0, __init__.py:7(_make_name)
+398,1,0.0,0.0,0.0,0.0, {built-in method posix.open}
+399,1,0.0,0.0,0.0,0.0, pathlib.py:1118(_opener)
+400,12,0.0,0.0,0.0,0.0, argparse.py:1938(consume_optional)
+401,4,0.0,0.0,0.0,0.0, {built-in method marshal.loads}
+402,3,0.0,0.0,0.0,0.0, argparse.py:1310(__init__)
+403,38,0.0,0.0,0.0,0.0, shutil.py:1342(get_terminal_size)
+404,10/6,0.0,0.0,0.0,0.0, sre_parse.py:436(_parse_sub)
+405,2,0.0,0.0,0.0,0.0, pathlib.py:1419(exists)
+406,4,0.0,0.0,0.0,0.0, pathlib.py:1227(stat)
+407,4,0.0,0.0,0.0,0.0, <frozen importlib._bootstrap_external>:645(_compile_bytecode)
+408,1,0.0,0.0,0.0,0.0, pathlib.py:1246(open)
+409,13,0.0,0.0,0.0,0.0, re.py:188(match)
+410,7,0.0,0.0,0.0,0.0, _utils.py:130(_rebuild_tensor)
+411,6,0.0,0.0,0.0,0.0, sre_parse.py:944(parse)
+412,14,0.0,0.0,0.0,0.0, reductions.py:314(reduce_storage)
+413,7,0.0,0.0,0.0,0.0, _utils.py:136(_rebuild_tensor_v2)
+414,5,0.0,0.0,0.0,0.0, <frozen importlib._bootstrap>:558(module_from_spec)
+415,1,0.0,0.0,0.0,0.0, {built-in method posix.listdir}
+416,3,0.0,0.0,0.0,0.0, gettext.py:542(find)
+417,3,0.0,0.0,0.0,0.0, gettext.py:583(translation)
+418,3,0.0,0.0,0.0,0.0, gettext.py:664(dgettext)
+419,3,0.0,0.0,0.0,0.0, gettext.py:741(gettext)
+420,79,0.0,0.0,0.0,0.0, re.py:250(compile)
+421,1,0.0,0.0,0.0,0.0, ddp.py:27(get_ddp_config)
+422,7,0.001,0.0,0.001,0.0, {method '__exit__' of '_io._IOBase' objects}
+423,1,0.0,0.0,0.001,0.001, argparse.py:1870(_parse_known_args)
+424,1,0.0,0.0,0.001,0.001, popen_spawn_posix.py:1(<module>)
+425,6,0.0,0.0,0.001,0.0, sre_compile.py:783(compile)
+426,1,0.0,0.0,0.001,0.001, argparse.py:1831(parse_known_args)
+427,1,0.0,0.0,0.001,0.001, argparse.py:1824(parse_args)
+428,4,0.001,0.0,0.001,0.0, {built-in method io.open_code}
+429,38,0.0,0.0,0.001,0.0, argparse.py:161(__init__)
+430,38,0.0,0.0,0.001,0.0, argparse.py:2541(_get_formatter)
+431,5,0.0,0.0,0.001,0.0, <frozen importlib._bootstrap_external>:145(_path_is_mode_type)
+432,92,0.0,0.0,0.001,0.0, re.py:289(_compile)
+433,5,0.0,0.0,0.001,0.0, <frozen importlib._bootstrap_external>:154(_path_isfile)
+434,7,0.0,0.0,0.001,0.0, serialization.py:210(__init__)
+435,7,0.001,0.0,0.001,0.0, {method 'close' of '_io.BufferedReader' objects}
+436,17,0.0,0.0,0.001,0.0, <frozen importlib._bootstrap_external>:135(_path_stat)
+437,7,0.0,0.0,0.001,0.0, serialization.py:213(__exit__)
+438,7,0.0,0.0,0.001,0.0, serialization.py:228(_open_file_like)
+439,7,0.001,0.0,0.001,0.0, serialization.py:241(__init__)
+440,1,0.0,0.0,0.001,0.001, argparse.py:1693(__init__)
+441,4,0.0,0.0,0.001,0.0, <frozen importlib._bootstrap_external>:1036(get_data)
+442,8,0.0,0.0,0.001,0.0, <frozen importlib._bootstrap_external>:1514(find_spec)
+443,5,0.0,0.0,0.001,0.0, <frozen importlib._bootstrap_external>:1383(_get_spec)
+444,5,0.0,0.0,0.001,0.0, <frozen importlib._bootstrap_external>:1415(find_spec)
+445,32,0.001,0.0,0.001,0.0, {method 'read' of '_io.BufferedReader' objects}
+446,2,0.0,0.0,0.001,0.001, {built-in method builtins.__import__}
+447,1,0.0,0.0,0.001,0.001, resource_tracker.py:18(<module>)
+448,7,0.0,0.0,0.001,0.0, serialization.py:45(_is_zipfile)
+449,10,0.001,0.0,0.001,0.0, {built-in method io.open}
+450,32/28,0.0,0.0,0.001,0.0, <frozen importlib._bootstrap>:1033(_handle_fromlist)
+451,5,0.0,0.0,0.001,0.0, <frozen importlib._bootstrap>:901(_find_spec)
+452,4,0.001,0.0,0.001,0.0, {method 'dump' of '_pickle.Pickler' objects}
+453,33,0.001,0.0,0.001,0.0, {built-in method posix.stat}
+454,4,0.0,0.0,0.001,0.0, <frozen importlib._bootstrap_external>:916(get_code)
+455,38,0.0,0.0,0.001,0.0, argparse.py:1392(add_argument)
+456,4,0.0,0.0,0.001,0.0, reduction.py:58(dump)
+457,4/2,0.0,0.0,0.002,0.001, {built-in method builtins.exec}
+458,8/2,0.0,0.0,0.002,0.001, <frozen importlib._bootstrap>:220(_call_with_frames_removed)
+459,1,0.0,0.0,0.002,0.002, parser.py:15(make_parser)
+460,4/2,0.0,0.0,0.002,0.001, <frozen importlib._bootstrap_external>:844(exec_module)
+461,5/2,0.0,0.0,0.002,0.001, <frozen importlib._bootstrap>:659(_load_unlocked)
+462,5/2,0.0,0.0,0.003,0.002, <frozen importlib._bootstrap>:967(_find_and_load_unlocked)
+463,5/2,0.0,0.0,0.003,0.002, <frozen importlib._bootstrap>:1002(_find_and_load)
+464,10,0.0,0.0,0.004,0.0, resource_tracker.py:70(ensure_running)
+465,4,0.0,0.0,0.004,0.001, resource_tracker.py:145(register)
+466,8,0.0,0.0,0.004,0.001, resource_tracker.py:153(_send)
+467,4,0.0,0.0,0.007,0.002, synchronize.py:50(__init__)
+468,4,0.0,0.0,0.007,0.002, synchronize.py:161(__init__)
+469,4,0.0,0.0,0.007,0.002, context.py:65(Lock)
+470,2,0.0,0.0,0.007,0.004, queues.py:339(__init__)
+471,2,0.0,0.0,0.007,0.004, context.py:110(SimpleQueue)
+472,2,0.0,0.0,0.01,0.005, popen_spawn_posix.py:38(_launch)
+473,2,0.0,0.0,0.01,0.005, popen_fork.py:15(__init__)
+474,2,0.0,0.0,0.01,0.005, popen_spawn_posix.py:30(__init__)
+475,18,0.011,0.001,0.011,0.001, {method '_share_fd_' of 'torch._C.LongStorageBase' objects}
+476,2,0.0,0.0,0.011,0.006, context.py:281(_Popen)
+477,2,0.0,0.0,0.011,0.006, process.py:110(start)
+478,3,0.012,0.004,0.012,0.004, {built-in method _posixsubprocess.fork_exec}
+479,3,0.0,0.0,0.012,0.004, util.py:447(spawnv_passfds)
+480,7,0.021,0.003,0.021,0.003, serialization.py:841(load_tensor)
+481,7,0.0,0.0,0.021,0.003, serialization.py:848(persistent_load)
+482,7,0.0,0.0,0.021,0.003, {method 'load' of '_pickle.Unpickler' objects}
+483,7,0.001,0.0,0.022,0.003, serialization.py:836(_load)
+484,3,0.024,0.008,0.024,0.008, {method '_share_fd_' of 'torch._C.HalfStorageBase' objects}
+485,7,0.0,0.0,0.025,0.004, serialization.py:502(load)
+486,1,0.0,0.0,0.025,0.025, dataset.py:75(<dictcomp>)
+487,1,0.0,0.0,0.026,0.026, dataset.py:71(from_path_if_exists)
+488,1,0.0,0.0,0.026,0.026, dataset.py:59(from_path)
+489,1,0.0,0.0,0.026,0.026, main.py:23(get_dataset)
+490,7,0.0,0.0,0.035,0.005, storage.py:130(share_memory_)
+491,7,0.0,0.0,0.035,0.005, _tensor.py:418(share_memory_)
+492,1,0.0,0.0,0.035,0.035, dataset.py:96(share_memory_)
+493,3,0.4,0.133,0.4,0.133, {built-in method posix.waitpid}
+494,2,0.0,0.0,0.4,0.2, popen_fork.py:36(wait)
+495,5,0.0,0.0,0.4,0.08, popen_fork.py:24(poll)
+496,2,0.0,0.0,0.4,0.2, process.py:142(join)
+497,2,122.575,61.288,122.575,61.288, {method 'poll' of 'select.poll' objects}
+498,2,0.0,0.0,122.575,61.288, selectors.py:403(select)
+499,2,0.0,0.0,122.575,61.288, connection.py:922(wait)
+500,2,0.0,0.0,122.976,61.488, spawn.py:81(join)
+501,1,0.0,0.0,122.994,122.994, spawn.py:168(start_processes)
+502,1,0.0,0.0,122.995,122.995, spawn.py:192(spawn)
