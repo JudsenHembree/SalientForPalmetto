@@ -23,7 +23,7 @@ SALIENT is designed to be fully compatible with PyG. In particular, defining a G
 
 ## Artifacts
 
-While this repository is being maintained, a frozen version that reproduces the key results in the paper can be found in a separate [artifact repository](https://github.com/MITIBMxGraph/SALIENT_artifact).
+This repo is not maintained see the official Salient repo for updates [Salient](https://github.com/MITIBMxGraph/SALIENT)
 
 ## Reference
 
