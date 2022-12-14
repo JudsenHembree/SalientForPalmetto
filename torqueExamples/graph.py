@@ -119,3 +119,12 @@ def graph():
         fig.savefig("figs/"+figname +'all.pdf')
         plt.close(fig)
  
+def main():
+    clean()
+    profs = globProfiles()
+    makeReadable(profs)
+    convertToCsv()
+    graph()
+
+if __name__ == "__main__":
+    main()

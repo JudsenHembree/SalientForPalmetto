@@ -82,13 +82,6 @@ def launch():
 
 def main():
     launch()
-    """
-    clean()
-    profs = globProfiles()
-    makeReadable(profs)
-    convertToCsv()
-    graph()
-    """
 
 if __name__ == "__main__":
     main()
