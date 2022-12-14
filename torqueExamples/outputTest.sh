@@ -19,7 +19,7 @@ OUTPUT_ROOT=$SALIENT_ROOT/job_output
 # Speficy directory for --ddp_dir. It must be an empty dir. For
 # example, it is not wise to use $OUTPUT_ROOT/$JOB_NAME, if prior
 # results are there
-DDP_DIR=/home/jhembre/SALIENT/job_output/JudTest/ddp/GAT/nodes_2/gpus_2
+DDP_DIR=/home/jhembre/SALIENT/job_output/ddp/GAT/nodes_2/gpus_2
 # file name is the node name
 touch $DDP_DIR/`hostname`
 # Run examples. For the full list of options, see driver/parser.py

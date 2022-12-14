@@ -60,7 +60,7 @@ def mod(model, nodes, gpus):
         os.makedirs(outputLocation)
 
 
-    dirLocation = "/home/jhembre/SALIENT/job_output/JudTest/ddp/" + str(model) + "/nodes_" + \
+    dirLocation = "/home/jhembre/SALIENT/job_output/ddp/" + str(model) + "/nodes_" + \
             str(nodes) + "/gpus_" + str(gpus)
     isExist = os.path.exists(dirLocation)
     if not isExist:

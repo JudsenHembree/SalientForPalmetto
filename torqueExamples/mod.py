@@ -43,15 +43,15 @@ def main():
                 text[i] = "       --num_workers 30 --max_num_devices_per_node 2 " + \
                         "--total_num_nodes " + str(num) + " \\\n"
             if text[i].find("DDP_DIR=$OUTPUT_ROOT/$JOB_NAME/ddp") != -1:
-                text[i] = "DDP_DIR=~/SALIENT/job_output/JudTest/ddp/" + str(num) + "/\n"
-                if not os.path.isdir("/home/jhembre/SALIENT/job_output/JudTest/ddp/" +
+                text[i] = "DDP_DIR=~/SALIENT/job_output/ddp/" + str(num) + "/\n"
+                if not os.path.isdir("/home/jhembre/SALIENT/job_output/ddp/" +
                         str(num) + "/"):
-                    os.makedirs("/home/jhembre/SALIENT/job_output/JudTest/ddp/" +
+                    os.makedirs("/home/jhembre/SALIENT/job_output/ddp/" +
                         str(num) + "/")
                 else:
-                    shutil.rmtree("/home/jhembre/SALIENT/job_output/JudTest/ddp/" +
+                    shutil.rmtree("/home/jhembre/SALIENT/job_output/ddp/" +
                         str(num) + "/")
-                    os.makedirs("/home/jhembre/SALIENT/job_output/JudTest/ddp/" +
+                    os.makedirs("/home/jhembre/SALIENT/job_output/ddp/" +
                         str(num) + "/")
 
     toFile(text)
