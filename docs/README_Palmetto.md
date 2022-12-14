@@ -120,6 +120,12 @@ conda install prettytable -c conda-forge
 
 ### 9. Try Examples
 
+You will need to replace my username with your own. simply run a grep -r jhembre
+and go through and swap out the username for places that make sense, aka the .py
+files.
+
+### 10. Try Examples
+
 Congratulations! SALIENT has been installed. The folder `torqueExamples` contains several example scripts to use SALIENT on Palmetto.
 
 To pre-download an OGB dataset before trying the examples, start python and type:
@@ -139,7 +145,7 @@ Tips: To see all command-line arguments of SALIENT, set `PYTHONPATH` to be the r
 python -m driver.main --help
 ```
 
-#### 9.1 Using the launch.py scripts
+#### 10.1 Using the launch.py scripts
 
 We have provided a launch.py script that attempt to launch many processes.
 Simply navigate to the torqueExamples repo and then python launch.py this will
