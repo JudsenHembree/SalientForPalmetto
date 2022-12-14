@@ -4,7 +4,7 @@ import shutil
 import os
 
 def mod(model, nodes, gpus):
-    outputLocation = "/home/jhembre/SALIENT/job_output/" + str(model) + "_nodes_" + str(nodes) + "_gpus_" + str(gpus) 
+    outputLocation = "/home/jhembre/SalientForPalmetto/job_output/" + str(model) + "_nodes_" + str(nodes) + "_gpus_" + str(gpus) 
     isExist = os.path.exists(outputLocation)
     if not isExist:
         os.makedirs(outputLocation)
@@ -13,7 +13,7 @@ def mod(model, nodes, gpus):
         os.makedirs(outputLocation)
 
 
-    dirLocation = "/home/jhembre/SALIENT/job_output/ddp/" + str(model) + "/nodes_" + \
+    dirLocation = "/home/jhembre/SalientForPalmetto/job_output/ddp/" + str(model) + "/nodes_" + \
             str(nodes) + "/gpus_" + str(gpus)
     isExist = os.path.exists(dirLocation)
     if not isExist:
