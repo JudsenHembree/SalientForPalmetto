@@ -35,7 +35,7 @@ def mod(model, nodes, gpus):
         "# Get JOB_NAME (set at the beginning of this script)",
         "JOB_NAME=$PBS_JOBNAME",
         "# Set SALIENT root and PYTHONPATH",
-        "SALIENT_ROOT=$HOME/SALIENT",
+        "SALIENT_ROOT=$HOME/SalientForPalmetto",
         "export PYTHONPATH=$SALIENT_ROOT",
         "# Set the data paths",
         "DATASET_ROOT=$HOME/dataset",
